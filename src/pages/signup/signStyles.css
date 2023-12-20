@@ -1,0 +1,245 @@
+/* loginStyles.css */
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  
+  .left-content {
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #4e6888;
+    width: 50%;
+    padding-right: 20px;
+    color: white;
+  }
+  
+  .left-text {
+    margin: 10%;
+  }
+  .heading-line{
+    flex-grow: 0.406; /* Use flex-grow to distribute space evenly */
+    height: 2px;
+    width: 350px;
+    background: #fdfdfe;
+    margin-left: 5px; /* Adjust margin as needed */
+    
+  }
+  
+  
+  .main-title {
+    color: #325076;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 10px;
+  }
+  
+  .sub-title {
+    color: #325076;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .bgimage {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  
+  .login-form {
+    width: 800px;
+    height: 400px;
+    flex-shrink: 0;
+    display: flex;
+    background-color: #d9d9d9;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  .right-content {
+    width: 50%;
+    text-align: center;
+    color: white;
+  }
+  
+  .login-heading {
+    width: 200px;
+    color: #414658;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .input-container {
+    height: 9%;
+    width: 70%;
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid #b9b9b9;
+    background-color:#d9d9d9 ;
+    box-sizing: border-box;
+  }
+  
+  .input-container input{
+    height: 95%;
+    width: 80%;
+    background-color:#d9d9d9 ;
+    border: 0px ;
+    margin-left: 45px;
+  }
+  
+  .input-container select{
+    height: 95%;
+    width: 80%;
+    background-color:#d9d9d9 ;
+    border: 0px ;
+    margin-left: 45px;
+  }
+  .input-icon {
+    background: #cac9c9;
+    padding: 1.8%;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 25px;
+    flex-shrink: 0;
+  }
+  
+  .input {
+    width: calc(100% - 40px);
+    height: 41px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: rgba(217, 217, 217, 0.00);
+  }
+  
+  .input::placeholder {
+    color: #c1bfc0; /* Change the placeholder color to match your design */
+    font-size: 14px; /* Adjust the font size of the placeholder */
+    font-style: italic; /* Optionally, set the font style to italic */
+  }
+  
+  .login-btn,
+  .google-btn {
+    width: 70%;
+    height: 41px;
+    flex-shrink: 0;
+    margin-top: 10px;
+  }
+  
+  .login-btn {
+    background: #4e6888;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  
+  .middle-txt {
+    display: flex;
+    align-items: center;
+    color: #414658;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 45px;
+    margin-top: 10px;
+  }
+  
+  .left-line {
+    flex-grow: 0.406; /* Use flex-grow to distribute space evenly */
+    height: 1px;
+    background: #414658;
+    margin-left: 10px; /* Adjust margin as needed */
+    margin-right: 5px; /* Adjust margin as needed */
+  }
+  
+  p {
+    margin: 0 5px; /* Adjust margin as needed */
+  }
+  
+  .right-line {
+    flex-grow: 0.406; /* Use flex-grow to distribute space evenly */
+    height: 1px;
+    background: #414658;
+    margin-left: 5px; /* Adjust margin as needed */
+  }
+  
+  .google-btn {
+    display: flex;
+   
+    border: 1px solid #b9b9b9;
+    background: rgba(217, 217, 217, 0.00);
+    justify-content: center;
+    color: #414658;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    margin-left: 57px;
+  }
+  
+  .google-btn img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-right: 10px; /* Adjust margin to create space between image and text */
+  margin-top: 6px;
+  }
+  
+  .google-btn-txt {
+    margin-top: 10px; 
+  margin-right: 0px ;
+  }
+  .blink {
+    background-color: #d9d9d9;
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bolder;
+    height: 3%;
+}
